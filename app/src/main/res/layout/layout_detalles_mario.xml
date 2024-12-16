@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <ImageView
+            android:id="@+id/iv_detalles_mario"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="@string/mario"
+            app:srcCompat="@drawable/mario" />
+
+        <TextView
+            android:id="@+id/tv_detalles_nombre_mario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mario"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tv_detalles_descripcion_mario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/descripcion_mario"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_detalles_habilidades_mario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/habilidades_mario"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_volver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="70dp"
+            android:text="@string/bt_Volver" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">tarea02ica</string>
+    <string name="mario">Mario Bros</string>
+    <string name="luigi">Luigi</string>
+    <string name="peach">Peach</string>
+    <string name="toad">Toad</string>
+    <string name="descripcion_mario">Breve descripción del personaje.</string>
+    <string name="habilidades_mario">Habilidades o características del personaje.</string>
+    <string name="descripcion_luigi">Breve descripción del personaje.</string>
+    <string name="habilidades_luigi">Habilidades o características del personaje.</string>
+    <string name="descripcion_peach">Breve descripción del personaje.</string>
+    <string name="habilidades_peach">Habilidades o características del personaje.</string>
+    <string name="descripcion_toad">Breve descripción del personaje.</string>
+    <string name="habilidades_toad">Habilidades o características del personaje.</string>
+    <string name="bt_Volver">Volver</string>
+    <string name="detalles">Detalles</string>
+</resources>
